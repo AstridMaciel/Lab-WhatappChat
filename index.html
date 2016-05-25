@@ -14,38 +14,175 @@
       background-color:#1eab2e;
 			padding-bottom: 100px;
     }
+		.col-md-4{
+			padding-right: 0px;
+		}
 		.astrid{
 			border-radius: 100%;
 			height: 40px; width: 40px;
 			margin-top: 10px;
+			margin-left: 10px;
 		}
-		span{
-			height: 40px;
-			width: 40px;
+		.id{
+			border: 1px  solid #bab5b5;
+			background-color: #eeeeee;
+		}
+		#icon{
+			margin-top: 15px;
+			margin-bottom: 0px;
+			margin-right: 10px;
+			font-size: 20px;
+		}
+		.input-group{
+			border: 1px  solid #fdfdfd;
+			background-color: #fdfdfd;
+			padding: 9px;
+		}
+		.scrollbar{
+			float: left;
+			height: 500px;
+			width: 100%;
+			background: #F5F5F5;
+			overflow-y: scroll;
+			margin-bottom: 25px;
+		}
+		.force-overflow{
+			min-height: 650px;
+		}
+		.col-md-8{
+			padding-left: 0px;
+			padding-right: 0px;
+			background-image: url("http://img3.todoiphone.net/wp-content/uploads/2014/03/WhatsApp-Wallpaper-39.jpg");
 		}
 	</style>
 </head>
 <body>
 <div class="header"><div class="row"><div class="col-md-12">
 </div></div></div>
+<!--cabecera_chat-->
 <div class="chat">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="id">
-					<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-9/934852_809316139130576_2852339905199132428_n.jpg?oh=5944deba3a4bc77c60fb8a38f8d16917&oe=57D2F021"
-					<p class="navbar-text navbar-right"><span class="glyphicon glyphicon-comment"></span><span class="glyphicon glyphicon-option-vertical"></span></p>
+					<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC"
+					<p class="navbar-text navbar-right">
+						<span id="icon"class="glyphicon glyphicon-option-vertical pull-right"></span>
+						<span id="icon"class="glyphicon glyphicon-comment pull-right"></span>
+					</p>
 				</div>
+<!---buscador-->
 				<div class="input-group">
-  				<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search"></span></span>
+  				<span class="input-group-addon" id="basic-addon1">
+					<span class="glyphicon glyphicon-search"></span></span>
   				<input type="text" class="form-control" placeholder="Buscar o empezar un chat nuevo" aria-describedby="basic-addon1">
 				</div>
-			</div>
-			<div class="col-md-8"></div>
+<!--chat_scrollbar-->
+				<div class="group-chat">
+					<div id="wrapper">
+    				<div class="scrollbar" id="style-default">
+      				<div class="force-overflow">	<div class="media">
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Lucía: ya llegó Ruth?</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Elizabteh</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+								<div class="media-left media-middle">
+									<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+								</div>
+								<div class="media-body">
+									<ul class="list-unstyled">
+										<li class="text-left">Laboratoria Arequipa</li>
+										<li class="text-left">Aldo: dale, dale.</li>
+									</ul>
+								</div>
+								<hr>
+							</div>
+    				</div>
+					</div>
+				</div>
+<!--Frow_4--></div>
 		</div>
+		<div class="col-md-8">
+			<div class="id">
+				<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC"
+				<p class="navbar-text navbar-right">
+					<span id="icon"class="glyphicon glyphicon-option-vertical pull-right"></span>
+					<span id="icon"class="glyphicon glyphicon-paperclip pull-right"></span>
+				</p>
+			</div>
+			<div class="chat-talk">
+				<div class="media-left media-middle">
+					<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
+				</div>
+				<div class="media-body">
+					<ul class="list-unstyled">
+						<li class="text-left">Elizabteh</li>
+						<li class="text-left">Aldo: dale, dale.</li>
+					</ul>
+				</div>
+				<hr>
+			</div>
+		</div>
+<!--no_tocar-->
 	</div>
-
 </div>
+<!--final_chat-->
 
 	<div id="bienvenida" class="well">
 		<h3>Hola, por favor ingresa tu nombre para entrar al chat</h3>
