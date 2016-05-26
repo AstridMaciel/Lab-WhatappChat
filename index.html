@@ -44,7 +44,6 @@
 			width: 100%;
 			background: #F5F5F5;
 			overflow-y: scroll;
-			margin-bottom: 25px;
 		}
 		.force-overflow{
 			min-height: 650px;
@@ -52,8 +51,10 @@
 		.col-md-8{
 			padding-left: 0px;
 			padding-right: 0px;
-			background-image: url("http://img3.todoiphone.net/wp-content/uploads/2014/03/WhatsApp-Wallpaper-39.jpg");
 		}
+		.chat-bar{
+			padding-left: 20px;
+			padding-right: 20px;		}
 	</style>
 </head>
 <body>
@@ -167,16 +168,18 @@
 				</p>
 			</div>
 			<div class="chat-talk">
-				<div class="media-left media-middle">
-					<img class="astrid"src="https://scontent-grt2-1.xx.fbcdn.net/v/t1.0-0/p296x100/13239972_1130314357030751_300565313851328502_n.jpg?oh=35b5d5139bb4ac9cf2a3181acc81a059&oe=57DCFFAC" alt="" />
-				</div>
-				<div class="media-body">
-					<ul class="list-unstyled">
-						<li class="text-left">Elizabteh</li>
-						<li class="text-left">Aldo: dale, dale.</li>
-					</ul>
-				</div>
-				<hr>
+				<div class="scrollbar" id="style-default">
+	      <div class="force-overflow"></div>
+	    </div>
+			<div class="chat-bar">
+					<span id="icon"class="glyphicon glyphicon-option-vertical pull-left"></span>
+					<input type="text" class="form-control" placeholder="Buscar o empezar un chat nuevo" aria-describedby="basic-addon1">
+						<span id="icon"class="glyphicon glyphicon-option-vertical pull-right"></span>
+						<span id="icon"class="glyphicon glyphicon-paperclip pull-right"></span>
+    	</div>
+						<!--<span id="icon"class="glyphicon glyphicon-heart pull-left"></span>
+						<span id="icon-2"class="glyphicon glyphicon-trash pull-right"></span>
+						<span id="icon-2"class="glyphicon glyphicon-send pull-right"></span>-->
 			</div>
 		</div>
 <!--no_tocar-->
